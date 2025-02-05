@@ -5,9 +5,12 @@
   "dependencies": {
     "terser": "^5.37.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gulp": "^5.0.0"
+  },
   "scripts": {
-    "gulp":"gulp",
+    "build": "gulp build",
+    "gulp": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

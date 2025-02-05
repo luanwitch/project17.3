@@ -21,6 +21,8 @@ gulp.task('scripts', function () {
 
 // Tarefa para rodar a build
 gulp.task('build', gulp.series('styles', 'scripts'));
+gulp.src('src/styles/styles.css', { allowEmpty: true })
+gulp.src('src/scripts/app.js', { allowEmpty: true })
 
 // Tarefa padrão
 gulp.task('default', gulp.series('build'));
