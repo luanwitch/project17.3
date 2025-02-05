@@ -1,0 +1,17 @@
+{
+  "name": "projeto-frases",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "terser": "^5.37.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "gulp":"gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

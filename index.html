@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Frases</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lobster&display=swap">
+    <link rel="stylesheet" href="./dist/styles/styles.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Frases Interativas</h1>
+        <p id="frase">Clique no botão para gerar uma frase!</p>
+        <button onclick="gerarFrase()">Nova Frase</button>
+        <button onclick="alternarIdioma('pt')">Ver em Português</button>
+        <button onclick="alternarIdioma('en')">Ver em Inglês</button>
+        <button onclick="alternarIdioma('es')">Ver em Espanhol</button>
+        <button onclick="alternarIdioma('fr')">Ver em Francês</button>
+        <button onclick="lerFrase()">Ler Frase</button>
+
+    </div>
+    <script src="./dist/scripts/app.min.js"></script>
+</body>
+</html>
